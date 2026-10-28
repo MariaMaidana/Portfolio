@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Maria Eduarda Santellano — Software Developer</title>
+  <title>Maria Eduarda Santellano — iOS Developer</title>
   <meta name="description" content="Portfolio of Maria Eduarda Santellano, software developer specializing in iOS applications." />
   <link rel="icon" type="image/png" sizes="32x32" href="images/portfolioicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,6 +17,7 @@
     <ul class="nav-links">
       <li><a href="#home" data-i18n="nav-home">Home</a></li>
       <li><a href="#projects" data-i18n="nav-projects">Projects</a></li>
+      <li><a href="#experience" data-i18n="nav-experience">Experience</a></li>
       <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
       <li><button class="lang-toggle" onclick="toggleLang()" aria-label="Mudar para Português">PT</button></li>
     </ul>
@@ -27,17 +28,13 @@
       <div class="hero-text">
         <span class="hero-tag" data-i18n="hero-tag">PORTO ALEGRE, BRAZIL</span>
         <h1 class="hero-name" data-i18n="hero-name">Hi, I’m Maria.</h1>
-        <p class="hero-role" data-i18n="hero-role">Software Developer</p>
+        <p class="hero-role" data-i18n="hero-role">iOS Developer</p>
         <p class="hero-desc" data-i18n="hero-desc">
-          I build iOS apps with Swift and SwiftUI. I'm a Computer Science student and part of the Apple Developer Academy.
+          I study Computer Science and I'm part of the Apple Developer Academy. In my projects, I build apps and games with Swift and SwiftUI.
         </p>
-        <div class="hero-meta">
-          <span data-i18n="hero-location">⌖ Porto Alegre, Brazil</span>
-          <span data-i18n="hero-status">✦ Open to opportunities</span>
-        </div>
         <div class="hero-actions">
           <a class="hero-button hero-button-primary" href="mailto:santellanomariamc@gmail.com" data-i18n="hero-cta">↗ Get in touch</a>
-          <a class="hero-button" href="#projects" data-i18n="hero-work">Explore my work ↓</a>
+          <a class="hero-button" href="#projects" data-i18n="hero-work">View projects ↓</a>
         </div>
         <div class="hero-socials">
           <span data-i18n="hero-follow">Find me online</span>
@@ -51,6 +48,13 @@
     </div>
   </section>
 
+  <div class="home-marquee" aria-hidden="true">
+    <div class="home-marquee-track">
+      <span data-i18n="home-marquee">Curious by nature · Built with care · Made to be useful</span>
+      <span data-i18n="home-marquee">Curious by nature · Built with care · Made to be useful</span>
+    </div>
+  </div>
+
   <section class="projects-section" id="projects">
     <div class="projects-header">
       <span class="projects-label" data-i18n="projects-label">My Projects</span>
@@ -60,112 +64,149 @@
 
       <a class="project-card" href="project-entrelinhas.html">
         <span class="project-number">01</span>
-        <div class="project-icon-box">
-          <img src="images/entrelinhas/icon.webp" alt="Entrelinhas / Otterlines" class="project-icon-img">
+        <div class="project-cover">
+          <img src="images/entrelinhas/screen-1.webp" alt="Otterlines interactive story map" class="project-cover-img">
         </div>
         <div class="project-details">
           <h2 class="project-title" data-i18n="entrelinhas-name">Otterlines</h2>
-          <p class="project-subtitle">tvOS • SwiftUI</p>
+          <div class="project-tags"><span>tvOS</span><span>SwiftUI</span></div>
+          <p class="project-description" data-i18n="home-desc-otterlines">Shared reading for children and adults, with books and activities that encourage a reading habit on Apple TV and iPad.</p>
         </div>
         <span class="project-arrow" aria-hidden="true">↗</span>
       </a>
 
       <a class="project-card" href="project-cerne.html">
         <span class="project-number">02</span>
-        <div class="project-icon-box">
-          <img src="images/cerne/cerne-logo.jpg" alt="Cerne" class="project-icon-img">
+        <div class="project-cover">
+          <img src="images/cerne/cerne-screen.png" alt="Cerne tree measurement experience" class="project-cover-img">
         </div>
         <div class="project-details">
           <h2 class="project-title">Cerne</h2>
-          <p class="project-subtitle">Swift • SwiftUI • MapKit • ARKit</p>
+          <div class="project-tags"><span>Swift</span><span>SwiftUI</span><span>MapKit</span><span>ARKit</span></div>
+          <p class="project-description" data-i18n="home-desc-cerne">Identify trees, measure them with augmented reality, and explore their environmental impact.</p>
         </div>
         <span class="project-arrow" aria-hidden="true">↗</span>
       </a>
 
       <a class="project-card" href="project-sardine.html">
         <span class="project-number">03</span>
-        <div class="project-icon-box">
-          <img src="images/sardine/sardine-logo.png" alt="Sardine Escape" class="project-icon-img">
+        <div class="project-cover">
+          <img src="images/sardine/initial-sardine.png" alt="Sardine Escape game screen" class="project-cover-img">
         </div>
         <div class="project-details">
           <h2 class="project-title">Sardine Escape</h2>
-          <p class="project-subtitle">Swift • SwiftUI • SpriteKit • GameKit • CoreMotion</p>
+          <div class="project-tags"><span>Swift</span><span>SwiftUI</span><span>SpriteKit</span><span>GameKit</span><span>CoreMotion</span></div>
+          <p class="project-description" data-i18n="home-desc-sardine">Guide a sardine through the ocean, dodge obstacles, and see how far you can go.</p>
         </div>
         <span class="project-arrow" aria-hidden="true">↗</span>
       </a>
 
       <a class="project-card" href="project-rotta.html">
         <span class="project-number">04</span>
-        <div class="project-icon-box">
-          <img src="images/rotta/rotta-logo.png" alt="Rotta" class="project-icon-img">
+        <div class="project-cover">
+          <img src="images/rotta/rotta-screen2.png" alt="Rotta app screen" class="project-cover-img">
         </div>
         <div class="project-details">
           <h2 class="project-title">Rotta</h2>
-          <p class="project-subtitle">Swift • UIKit • CloudKit • Core Data</p>
+          <div class="project-tags"><span>Swift</span><span>UIKit</span><span>CloudKit</span><span>Core Data</span></div>
+          <p class="project-description" data-i18n="home-desc-rotta">Follow junior formula racing with calendars, standings, and driver profiles.</p>
         </div>
         <span class="project-arrow" aria-hidden="true">↗</span>
       </a>
 
       <a class="project-card" href="project-wanderfeel.html">
         <span class="project-number">05</span>
-        <div class="project-icon-box">
-          <img src="images/wanderfeel/wanderfeel-logo.png" alt="WanderFeel" class="project-icon-img">
+        <div class="project-cover">
+          <img src="images/wanderfeel/wanderfeel-screen.png" alt="WanderFeel app screen" class="project-cover-img">
         </div>
         <div class="project-details">
           <h2 class="project-title">WanderFeel</h2>
-          <p class="project-subtitle">Swift • SwiftUI</p>
+          <div class="project-tags"><span>Swift</span><span>SwiftUI</span></div>
+          <p class="project-description" data-i18n="home-desc-wanderfeel">Collect places, photos, and feelings in a travel journal that helps you remember each trip.</p>
         </div>
         <span class="project-arrow" aria-hidden="true">↗</span>
       </a>
 
       <a class="project-card" href="project-omg.html">
         <span class="project-number">06</span>
-        <div class="project-icon-box">
-          <img src="images/omg/ohmygrill-logo.png" alt="Oh My Grill!" class="project-icon-img">
+        <div class="project-cover">
+          <img src="images/omg/omg-screen.png" alt="Oh My Grill gameplay" class="project-cover-img">
         </div>
         <div class="project-details">
           <h2 class="project-title">Oh My Grill!</h2>
-          <p class="project-subtitle">SwiftUI • SpriteKit • GameplayKit • Multipeer Connectivity • CoreMotion</p>
+          <div class="project-tags"><span>SwiftUI</span><span>SpriteKit</span><span>GameplayKit</span><span>Multipeer Connectivity</span><span>CoreMotion</span></div>
+          <p class="project-description" data-i18n="home-desc-omg">Split the kitchen tasks, get orders out, and keep the team going through the chaos.</p>
         </div>
         <span class="project-arrow" aria-hidden="true">↗</span>
       </a>
 
       <a class="project-card" href="project-purrchase.html">
         <span class="project-number">07</span>
-        <div class="project-icon-box">
-          <img src="images/purrchase/purrchase-logo.png" alt="Purrchase" class="project-icon-img">
+        <div class="project-cover">
+          <img src="images/purrchase/purrchase-screen.png" alt="Purrchase pantry screen" class="project-cover-img">
         </div>
         <div class="project-details">
           <h2 class="project-title">Purrchase</h2>
-          <p class="project-subtitle">UIKit</p>
+          <div class="project-tags"><span>UIKit</span></div>
+          <p class="project-description" data-i18n="home-desc-purrchase">Organize your pantry, track expiration dates, and plan shopping and recipes around what you already have.</p>
         </div>
         <span class="project-arrow" aria-hidden="true">↗</span>
       </a>
 
       <a class="project-card" href="project-towerdefense.html">
         <span class="project-number">08</span>
-        <div class="project-icon-box">
-          <img src="images/towerdefense/icon.png" alt="Wakes" class="project-icon-img">
+        <div class="project-cover">
+          <img src="images/towerdefense/icon.png" alt="Wakes game icon" class="project-cover-img">
         </div>
         <div class="project-details">
           <h2 class="project-title">Wakes</h2>
-          <p class="project-subtitle">visionOS • SwiftUI • RealityKit</p>
+          <div class="project-tags"><span>visionOS</span><span>SwiftUI</span><span>RealityKit</span></div>
+          <p class="project-description" data-i18n="home-desc-wakes">Defend the village in a gesture-controlled tower defense game for Apple Vision Pro.</p>
         </div>
         <span class="project-arrow" aria-hidden="true">↗</span>
       </a>
 
       <a class="project-card" href="project-flyready.html">
         <span class="project-number">09</span>
-        <div class="project-icon-box">
-          <img src="images/flyready/icon.png" alt="FlyReady" class="project-icon-img">
+        <div class="project-cover">
+          <img src="images/flyready/screen-1.webp" alt="FlyReady interview practice screen" class="project-cover-img">
         </div>
         <div class="project-details">
           <h2 class="project-title">FlyReady</h2>
-          <p class="project-subtitle">SwiftUI • Foundation Models • Speech</p>
+          <div class="project-tags"><span>SwiftUI</span><span>Foundation Models</span><span>Speech</span></div>
+          <p class="project-description" data-i18n="home-desc-flyready">Practice flight attendant interviews out loud with a recruiter who responds to your answers.</p>
         </div>
         <span class="project-arrow" aria-hidden="true">↗</span>
       </a>
 
+    </div>
+  </section>
+
+  <section class="experience-section" id="experience">
+    <div class="experience-heading">
+      <span class="section-label" data-i18n="experience-label">A little about my path</span>
+      <h2 data-i18n="experience-title">Where I’m learning by building.</h2>
+      <p data-i18n="experience-intro">I’m studying Computer Science and growing as an iOS developer through hands-on work at Apple Developer Academy.</p>
+    </div>
+    <div class="experience-grid">
+      <article class="experience-card">
+        <div class="experience-card-top">
+          <span class="experience-status" data-i18n="experience-current">CURRENT</span>
+          <span class="experience-location">Porto Alegre, Brazil</span>
+        </div>
+        <p class="experience-organization">Apple Developer Academy</p>
+        <h3 data-i18n="experience-role">iOS Developer & Computer Science Student</h3>
+        <p class="experience-description" data-i18n="experience-description">Building native apps with Swift and SwiftUI, exploring product ideas from the first sketch through working prototypes.</p>
+        <div class="experience-skills" aria-label="Technologies">
+          <span>Swift</span><span>SwiftUI</span><span>UIKit</span><span>SpriteKit</span><span>RealityKit</span>
+        </div>
+      </article>
+      <aside class="education-card">
+        <span class="education-mark" aria-hidden="true">✳</span>
+        <span class="education-label" data-i18n="education-label">IN PROGRESS</span>
+        <h3 data-i18n="education-title">Computer Science</h3>
+        <p data-i18n="education-description">My studies give me the foundations behind the software I build.</p>
+      </aside>
     </div>
   </section>
 
