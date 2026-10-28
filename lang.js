@@ -1,12 +1,19 @@
 const translations = {
   en: {
     // NAV
+    "nav-home": "Home",
     "nav-projects": "Projects",
     "nav-contact": "Contact",
     "nav-back": "← Back to portfolio",
 
     // HOME HERO
+    "hero-name": "Hi, I’m Maria.",
     "hero-tag": "PORTO ALEGRE, BRAZIL",
+    "hero-location": "⌖ Porto Alegre, Brazil",
+    "hero-status": "✦ Apple Developer Academy",
+    "hero-cta": "↗ Get in touch",
+    "hero-work": "Explore my work ↓",
+    "hero-follow": "Find me online",
     "hero-role": "Software Developer",
     "hero-desc": "I build iOS apps with Swift and SwiftUI. I'm a Computer Science student and part of the Apple Developer Academy.",
 
@@ -85,12 +92,19 @@ const translations = {
 
   pt: {
     // NAV
+    "nav-home": "Início",
     "nav-projects": "Projetos",
     "nav-contact": "Contato",
     "nav-back": "← Voltar ao portfólio",
 
     // HOME HERO
+    "hero-name": "Oi, eu sou a Maria.",
     "hero-tag": "PORTO ALEGRE, BRASIL",
+    "hero-location": "⌖ Porto Alegre, Brasil",
+    "hero-status": "✦ Apple Developer Academy",
+    "hero-cta": "↗ Vamos conversar",
+    "hero-work": "Conheça meus projetos ↓",
+    "hero-follow": "Me encontre online",
     "hero-role": "Desenvolvedora de software",
     "hero-desc": "Desenvolvo aplicativos iOS com Swift e SwiftUI. Sou estudante de Ciência da Computação e faço parte da Apple Developer Academy.",
 

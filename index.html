@@ -13,27 +13,36 @@
 <body>
 
   <nav>
-    <a class="nav-logo" href="index.html">ME.</a>
+    <a class="nav-logo" href="index.html" aria-label="Maria Eduarda Santellano">ME.</a>
     <ul class="nav-links">
+      <li><a href="#home" data-i18n="nav-home">Home</a></li>
       <li><a href="#projects" data-i18n="nav-projects">Projects</a></li>
       <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
       <li><button class="lang-toggle" onclick="toggleLang()" aria-label="Mudar para Português">PT</button></li>
     </ul>
   </nav>
 
-  <section class="hero">
+  <section class="hero" id="home">
     <div class="hero-content">
       <div class="hero-text">
         <span class="hero-tag" data-i18n="hero-tag">PORTO ALEGRE, BRAZIL</span>
-        <h1 class="hero-name"><span>Maria</span> <span>Eduarda</span><br>Santellano</h1>
+        <h1 class="hero-name" data-i18n="hero-name">Hi, I’m Maria.</h1>
         <p class="hero-role" data-i18n="hero-role">Software Developer</p>
         <p class="hero-desc" data-i18n="hero-desc">
           I build iOS apps with Swift and SwiftUI. I'm a Computer Science student and part of the Apple Developer Academy.
         </p>
-        <div class="hero-links">
-          <a class="hero-link" href="mailto:santellanomariamc@gmail.com">Email</a>
-          <a class="hero-link" href="https://github.com/MariaMaidana" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a class="hero-link" href="https://www.linkedin.com/in/mariaeduardasantellano" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <div class="hero-meta">
+          <span data-i18n="hero-location">⌖ Porto Alegre, Brazil</span>
+          <span data-i18n="hero-status">✦ Open to opportunities</span>
+        </div>
+        <div class="hero-actions">
+          <a class="hero-button hero-button-primary" href="mailto:santellanomariamc@gmail.com" data-i18n="hero-cta">↗ Get in touch</a>
+          <a class="hero-button" href="#projects" data-i18n="hero-work">Explore my work ↓</a>
+        </div>
+        <div class="hero-socials">
+          <span data-i18n="hero-follow">Find me online</span>
+          <a class="social-link" href="https://github.com/MariaMaidana" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="social-link" href="https://www.linkedin.com/in/mariaeduardasantellano" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
         </div>
       </div>
       <div class="hero-photo-container">
@@ -49,8 +58,20 @@
 
     <div class="projects-grid">
 
-      <a class="project-card" href="project-cerne.html">
+      <a class="project-card" href="project-entrelinhas.html">
         <span class="project-number">01</span>
+        <div class="project-icon-box">
+          <img src="images/entrelinhas/icon.webp" alt="Entrelinhas / Otterlines" class="project-icon-img">
+        </div>
+        <div class="project-details">
+          <h2 class="project-title" data-i18n="entrelinhas-name">Otterlines</h2>
+          <p class="project-subtitle">tvOS • SwiftUI</p>
+        </div>
+        <span class="project-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="project-card" href="project-cerne.html">
+        <span class="project-number">02</span>
         <div class="project-icon-box">
           <img src="images/cerne/cerne-logo.jpg" alt="Cerne" class="project-icon-img">
         </div>
@@ -62,7 +83,7 @@
       </a>
 
       <a class="project-card" href="project-sardine.html">
-        <span class="project-number">02</span>
+        <span class="project-number">03</span>
         <div class="project-icon-box">
           <img src="images/sardine/sardine-logo.png" alt="Sardine Escape" class="project-icon-img">
         </div>
@@ -74,7 +95,7 @@
       </a>
 
       <a class="project-card" href="project-rotta.html">
-        <span class="project-number">03</span>
+        <span class="project-number">04</span>
         <div class="project-icon-box">
           <img src="images/rotta/rotta-logo.png" alt="Rotta" class="project-icon-img">
         </div>
@@ -86,7 +107,7 @@
       </a>
 
       <a class="project-card" href="project-wanderfeel.html">
-        <span class="project-number">04</span>
+        <span class="project-number">05</span>
         <div class="project-icon-box">
           <img src="images/wanderfeel/wanderfeel-logo.png" alt="WanderFeel" class="project-icon-img">
         </div>
@@ -98,7 +119,7 @@
       </a>
 
       <a class="project-card" href="project-omg.html">
-        <span class="project-number">05</span>
+        <span class="project-number">06</span>
         <div class="project-icon-box">
           <img src="images/omg/ohmygrill-logo.png" alt="Oh My Grill!" class="project-icon-img">
         </div>
@@ -110,7 +131,7 @@
       </a>
 
       <a class="project-card" href="project-purrchase.html">
-        <span class="project-number">06</span>
+        <span class="project-number">07</span>
         <div class="project-icon-box">
           <img src="images/purrchase/purrchase-logo.png" alt="Purrchase" class="project-icon-img">
         </div>
@@ -122,7 +143,7 @@
       </a>
 
       <a class="project-card" href="project-towerdefense.html">
-        <span class="project-number">07</span>
+        <span class="project-number">08</span>
         <div class="project-icon-box">
           <img src="images/towerdefense/icon.png" alt="Wakes" class="project-icon-img">
         </div>
@@ -134,7 +155,7 @@
       </a>
 
       <a class="project-card" href="project-flyready.html">
-        <span class="project-number">08</span>
+        <span class="project-number">09</span>
         <div class="project-icon-box">
           <img src="images/flyready/icon.png" alt="FlyReady" class="project-icon-img">
         </div>
@@ -144,19 +165,6 @@
         </div>
         <span class="project-arrow" aria-hidden="true">↗</span>
       </a>
-
-      <a class="project-card" href="project-entrelinhas.html">
-        <span class="project-number">09</span>
-        <div class="project-icon-box">
-          <img src="images/entrelinhas/icon.webp" alt="Entrelinhas / Otterlines" class="project-icon-img">
-        </div>
-        <div class="project-details">
-          <h2 class="project-title" data-i18n="entrelinhas-name">Otterlines</h2>
-          <p class="project-subtitle">tvOS • SwiftUI</p>
-        </div>
-        <span class="project-arrow" aria-hidden="true">↗</span>
-      </a>
-
 
     </div>
   </section>
