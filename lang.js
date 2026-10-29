@@ -57,7 +57,7 @@ const translations = {
     "rotta-logo-alt": "Rotta logo.",
     "rotta-screen1-alt": "Formula 2 information screen with a link to the motorsport glossary.",
     "rotta-screen2-alt": "Formula 2 standings for drivers and teams.",
-    "rotta-screen3-alt": "Motorsport glossary listing terms such as DRS.",
+    "rotta-screen3-alt": "Formula 2 calendar with the Lusail round and its session schedule.",
     "rotta-screen4-alt": "Leonardo Fornaroli's driver profile with team, country, and results.",
     "rotta-screen5-alt": "List of Formula 2 drivers.",
     "wanderfeel-gallery-label": "Inside WanderFeel",
@@ -78,7 +78,6 @@ const translations = {
     "purrchase-logo-alt": "Purrchase logo.",
     "purrchase-screen1-alt": "Shopping lists screen with an option to create a list.",
     "purrchase-screen2-alt": "The list “Rancho da Gigi” with grapes and apples.",
-    "purrchase-screen3-alt": "Empty pantry screen with an option to add products.",
     "purrchase-screen4-alt": "Pantry organized into all products, items nearing expiration, and expired items.",
     "purrchase-screen5-alt": "Recipe inspiration tab with search and a cookie recipe.",
     "tower-icon-alt": "Wakes icon: a geometric skull with glowing green eyes on a purple background.",
@@ -154,9 +153,9 @@ const translations = {
     "purrchase-gallery-title": "Lists, pantry, and recipes",
     "purrchase-team-title": "From idea to app",
     "purrchase-team-desc": "Developed as a team, bringing together design and iOS development.",
-    "tower-subtitle": "Darts in hand. The village is under attack.",
+    "tower-subtitle": "Your hands are the weapon. The village is under attack.",
     "tower-about-title": "The village is under attack",
-    "tower-desc1": "In Wakes, enemies follow a path toward the village. Aim and throw darts with your hands to stop each wave—and get ready for the next.",
+    "tower-desc1": "In Wakes, enemies follow a path toward the village. Throw bombs with your hands to stop each wave—and get ready for the next.",
     "tower-desc2": "Defeated enemies earn coins you can spend on upgrades between waves. Made for Apple Vision Pro, Wakes combines hand tracking and RealityKit to bring the battlefield into your space.",
     "flyready-subtitle": "The recruiter asks. You answer. The conversation follows what you said.",
     "flyready-about-title": "An interview without a fixed script",
@@ -171,8 +170,20 @@ const translations = {
     "entrelinhas-gallery-label": "Inside the app",
     "entrelinhas-gallery-title": "Stories, books, and activities",
     "entrelinhas-icon-alt": "Otterlines app icon showing an otter reading a book.",
-    "entrelinhas-map-alt": "Illustrated Otterlines story map with paths between stories and the Lighthouse Library.",
-    "entrelinhas-books-alt": "Otterlines bookshelf featuring books including Peter Pan and Alice in Wonderland.",
+    "entrelinhas-ipad-map-alt": "Entrelinhas map showing the Lighthouse Library, Reading Nook, Word Playground, and Little Otters’ Atelier.",
+    "entrelinhas-question-alt": "A Peter Pan comprehension question in the Characters activity.",
+    "entrelinhas-sentence-alt": "An Alice in Wonderland sentence completion activity.",
+    "entrelinhas-reading-corner-alt": "The Reading Corner timer with an adult otter reading with a child.",
+    "entrelinhas-art-alt": "The Atelier screen inviting children to create a new drawing.",
+    "tower-gallery-label": "From the App Store",
+    "tower-gallery-title": "Step into the battlefield",
+    "tower-video-alt": "Wakes App Store preview video",
+    "tower-shot-1-alt": "Wakes App Store image showing the player defending the village in a winter battlefield.",
+    "tower-shot-2-alt": "Wakes App Store image about attacking enemies from different angles.",
+    "tower-shot-3-alt": "Wakes App Store image showing the upgrade shop between waves.",
+    "tower-shot-4-alt": "Wakes App Store image presenting different enemy types.",
+    "tower-shot-5-alt": "Wakes App Store image showing a giant enemy approaching the village.",
+    "tower-shot-6-alt": "Wakes App Store image showing the final challenge across its waves.",
   },
 
   pt: {
@@ -233,7 +244,7 @@ const translations = {
     "rotta-logo-alt": "Logo do Rotta.",
     "rotta-screen1-alt": "Tela de informações da Fórmula 2 com acesso ao glossário do automobilismo.",
     "rotta-screen2-alt": "Classificação de pilotos e escuderias da Fórmula 2.",
-    "rotta-screen3-alt": "Glossário do automobilismo com termos como DRS.",
+    "rotta-screen3-alt": "Calendário da Fórmula 2 com a etapa de Lusail e os horários das sessões.",
     "rotta-screen4-alt": "Perfil do piloto Leonardo Fornaroli com equipe, país e resultados.",
     "rotta-screen5-alt": "Lista de pilotos da Fórmula 2.",
     "wanderfeel-gallery-label": "Por dentro do WanderFeel",
@@ -254,7 +265,6 @@ const translations = {
     "purrchase-logo-alt": "Logo do Purrchase.",
     "purrchase-screen1-alt": "Tela de listas de compras, com opção para criar uma lista.",
     "purrchase-screen2-alt": "Lista “Rancho da Gigi” com uvas e maçãs.",
-    "purrchase-screen3-alt": "Tela da despensa vazia, com opção para adicionar produtos.",
     "purrchase-screen4-alt": "Despensa organizada em todos os produtos, itens perto do vencimento e itens vencidos.",
     "purrchase-screen5-alt": "Aba de receitas com busca e uma receita de cookies.",
     "tower-icon-alt": "Ícone do Wakes: caveira geométrica com olhos verdes brilhantes em fundo roxo.",
@@ -325,9 +335,9 @@ const translations = {
     "purrchase-about-title": "O que tem em casa, antes de ir às compras",
     "purrchase-desc1": "O Purrchase junta listas de compras e despensa. Cadastre o que tem em casa, acompanhe os produtos perto do vencimento ou já vencidos e decida o que levar — ou consumir primeiro.",
     "purrchase-desc2": "Na aba de inspirações, receitas ficam à mão para planejar o que cozinhar com os ingredientes disponíveis. A ideia é dar mais visibilidade ao que já está na cozinha e ajudar a evitar desperdício.",
-    "tower-subtitle": "Dardos na mão. A vila está sob ataque.",
+    "tower-subtitle": "Suas mãos são sua arma. A vila está sob ataque.",
     "tower-about-title": "A vila está sob ataque",
-    "tower-desc1": "No Wakes, inimigos avançam por uma trilha em direção à vila. Mire e lance dardos com as mãos para deter cada onda — e prepare-se para a próxima.",
+    "tower-desc1": "No Wakes, inimigos avançam por uma trilha em direção à vila. Lance bombas com as mãos para deter cada onda — e prepare-se para a próxima.",
     "tower-desc2": "Ao derrotar inimigos, você ganha moedas para aprimorar a defesa entre as ondas. Feito para Apple Vision Pro, Wakes combina rastreamento das mãos e RealityKit para levar o campo de batalha ao seu espaço.",
     "flyready-subtitle": "O recrutador pergunta. Você responde. A conversa continua a partir do que você disse.",
     "flyready-about-title": "Uma entrevista que não segue um roteiro fixo",
@@ -342,8 +352,20 @@ const translations = {
     "entrelinhas-gallery-label": "Por dentro do app",
     "entrelinhas-gallery-title": "Histórias, livros e atividades",
     "entrelinhas-icon-alt": "Ícone do Entrelinhas com uma lontra lendo um livro.",
-    "entrelinhas-map-alt": "Mapa ilustrado do Entrelinhas com caminhos entre histórias e a Biblioteca do Farol.",
-    "entrelinhas-books-alt": "Prateleira do Entrelinhas com livros como Peter Pan e Alice no País das Maravilhas.",
+    "entrelinhas-ipad-map-alt": "Mapa do Entrelinhas com a Biblioteca do Farol, o Recanto de Leitura, o Parque das Palavras e o Ateliê das Lontrinhas.",
+    "entrelinhas-question-alt": "Pergunta de compreensão sobre Peter Pan na atividade Personagens.",
+    "entrelinhas-sentence-alt": "Atividade de completar frases com um trecho de Alice no País das Maravilhas.",
+    "entrelinhas-reading-corner-alt": "Cronômetro do Recanto de Leitura, com uma lontra adulta lendo com uma criança.",
+    "entrelinhas-art-alt": "Tela do Ateliê que convida as crianças a criar um desenho.",
+    "tower-gallery-label": "Na App Store",
+    "tower-gallery-title": "Entre no campo de batalha",
+    "tower-video-alt": "Vídeo de apresentação do Wakes na App Store",
+    "tower-shot-1-alt": "Imagem do Wakes na App Store mostrando a defesa da vila em um cenário de inverno.",
+    "tower-shot-2-alt": "Imagem do Wakes na App Store sobre atacar inimigos de diferentes ângulos.",
+    "tower-shot-3-alt": "Imagem do Wakes na App Store mostrando a loja de melhorias entre as ondas.",
+    "tower-shot-4-alt": "Imagem do Wakes na App Store apresentando diferentes tipos de inimigos.",
+    "tower-shot-5-alt": "Imagem do Wakes na App Store mostrando um inimigo gigante se aproximando da vila.",
+    "tower-shot-6-alt": "Imagem do Wakes na App Store mostrando o desafio das ondas finais.",
   }
 };
 
@@ -384,6 +406,11 @@ function applyTranslations(lang) {
     const key = el.getAttribute("data-i18n-alt");
     const val = (translations[lang] && translations[lang][key]) || translations["en"][key];
     if (val !== undefined) el.setAttribute("alt", val);
+  });
+  document.querySelectorAll("[data-i18n-aria-label]").forEach(el => {
+    const key = el.getAttribute("data-i18n-aria-label");
+    const val = (translations[lang] && translations[lang][key]) || translations["en"][key];
+    if (val !== undefined) el.setAttribute("aria-label", val);
   });
 }
 
