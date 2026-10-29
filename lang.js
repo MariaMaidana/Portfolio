@@ -8,7 +8,6 @@ const translations = {
     "nav-back": "← Back to portfolio",
 
     // HOME HERO
-    "home-marquee": "Curious by nature  ·  Built with care  ·  Made to be useful",
     "hero-name": "Hi, I’m Maria.",
     "hero-tag": "PORTO ALEGRE, BRAZIL",
     "hero-cta": "↗ Get in touch",
@@ -212,7 +211,6 @@ const translations = {
     "nav-back": "← Voltar ao portfólio",
 
     // HOME HERO
-    "home-marquee": "Curiosa por natureza  ·  Feito com cuidado  ·  Criado para ser útil",
     "hero-name": "Oi, eu sou a Maria.",
     "hero-tag": "PORTO ALEGRE, BRASIL",
     "hero-cta": "↗ Fale comigo",
