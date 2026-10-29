@@ -65,8 +65,8 @@ nav {
 .hero-socials { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1rem; margin-top: 1.65rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .75rem; }
 .social-link { color: var(--ink); font-weight: 600; text-decoration-color: #c9c0b4; text-underline-offset: 3px; }
 .social-link:hover { color: var(--blue); }
-.hero-photo-container { position: relative; width: min(100%, 350px); aspect-ratio: 4 / 4.35; justify-self: end; overflow: hidden; padding: 10px; border: 1px solid #d7d9f4; border-radius: 32% 25% 29% 22% / 27% 30% 24% 31%; background: #e9eaff; transform: rotate(1.5deg); }
-.hero-photo { width: 100%; height: 100%; border-radius: inherit; object-fit: cover; transform: rotate(-1.5deg) scale(1.03); }
+.hero-photo-container { position: relative; display: flex; align-items: center; justify-content: center; width: min(100%, 350px); aspect-ratio: 4 / 4.35; justify-self: end; overflow: hidden; padding: 10px; border: 1px solid #d7d9f4; border-radius: 32% 25% 29% 22% / 27% 30% 24% 31%; background: #e9eaff; transform: rotate(1.5deg); }
+.hero-photo { width: 94%; height: 94%; object-fit: contain; transform: rotate(-1.5deg); }
 
 /* A single, restrained moving line gives the page a signature rhythm. */
 .home-marquee { overflow: hidden; padding: .82rem 0; border-block: 1px solid #dddba4; background: var(--lime); }
