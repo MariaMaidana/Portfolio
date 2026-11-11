@@ -8,11 +8,11 @@ const translations = {
     "nav-back": "← Back to portfolio",
 
     // HOME HERO
-    "hero-name": "Hi, I’m Maria.",
+    "studio-featured": "Featured projects",
+    "studio-profile-label": "Profile",
+    "studio-all": "All projects",
+    "hero-work": "View projects",
     "hero-tag": "PORTO ALEGRE, BRAZIL",
-    "hero-cta": "↗ Get in touch",
-    "hero-work": "View projects ↓",
-    "hero-follow": "Find me online",
     "hero-role": "iOS Developer",
     "hero-desc": "I study Computer Science and I'm part of the Apple Developer Academy. In my projects, I build apps and games with Swift and SwiftUI.",
 
@@ -211,11 +211,11 @@ const translations = {
     "nav-back": "← Voltar ao portfólio",
 
     // HOME HERO
-    "hero-name": "Oi, eu sou a Maria.",
+    "studio-featured": "Projetos em destaque",
+    "studio-profile-label": "Perfil",
+    "studio-all": "Todos os projetos",
+    "hero-work": "Ver projetos",
     "hero-tag": "PORTO ALEGRE, BRASIL",
-    "hero-cta": "↗ Fale comigo",
-    "hero-work": "Ver projetos ↓",
-    "hero-follow": "Me encontre online",
     "hero-role": "Desenvolvedora iOS",
     "hero-desc": "Estudo Ciência da Computação e faço parte da Apple Developer Academy. Nos projetos, desenvolvo apps e jogos com Swift e SwiftUI.",
 

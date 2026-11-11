@@ -10,10 +10,10 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="portfolio-home">
 
   <nav>
-    <a class="nav-logo" href="index.html" aria-label="Maria Eduarda Santellano">ME.</a>
+    <a class="nav-logo" href="#home"><span aria-hidden="true">✦</span> Maria Eduarda Santellano</a>
     <ul class="nav-links">
       <li><a href="#home" data-i18n="nav-home">Home</a></li>
       <li><a href="#projects" data-i18n="nav-projects">Projects</a></li>
@@ -23,34 +23,61 @@
     </ul>
   </nav>
 
-  <section class="hero" id="home">
-    <div class="hero-content">
-      <div class="hero-text">
-        <span class="hero-tag" data-i18n="hero-tag">PORTO ALEGRE, BRAZIL</span>
-        <h1 class="hero-name" data-i18n="hero-name">Hi, I’m Maria.</h1>
-        <p class="hero-role" data-i18n="hero-role">iOS Developer</p>
-        <p class="hero-desc" data-i18n="hero-desc">
-          I study Computer Science and I'm part of the Apple Developer Academy. In my projects, I build apps and games with Swift and SwiftUI.
-        </p>
-        <div class="hero-actions">
-          <a class="hero-button hero-button-primary" href="mailto:santellanomariamc@gmail.com" data-i18n="hero-cta">↗ Get in touch</a>
-          <a class="hero-button" href="#projects" data-i18n="hero-work">View projects ↓</a>
+  <main>
+  <section class="studio" id="home" aria-labelledby="studio-title">
+    <div class="studio-layout">
+      <div class="studio-intro">
+        <div class="studio-titlebar">
+          <span class="studio-window-mark" aria-hidden="true">▣</span>
+          <span data-i18n="studio-profile-label">Profile</span>
         </div>
-        <div class="hero-socials">
-          <span data-i18n="hero-follow">Find me online</span>
+        <div class="studio-profile">
+          <img src="images/maria-photo.png" alt="" class="studio-avatar">
+          <div>
+            <p class="studio-name">Maria Eduarda Santellano</p>
+            <p class="studio-location" data-i18n="hero-tag">PORTO ALEGRE, BRAZIL</p>
+          </div>
+        </div>
+        <h1 id="studio-title" data-i18n="hero-role">iOS Developer</h1>
+        <p class="studio-bio" data-i18n="hero-desc">I study Computer Science and I'm part of the Apple Developer Academy. In my projects, I build apps and games with Swift and SwiftUI.</p>
+        <div class="studio-actions">
+          <a class="studio-cta" href="#projects"><span data-i18n="hero-work">View projects</span><span aria-hidden="true">↓</span></a>
           <a class="social-link" href="https://github.com/MariaMaidana" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
           <a class="social-link" href="https://www.linkedin.com/in/mariaeduardasantellano" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <div class="hero-photo-container">
-        <img src="images/maria-photo.png" alt="Maria Eduarda Santellano" class="hero-photo">
+
+      <div class="studio-launcher">
+        <div class="studio-launcher-header">
+          <h2 data-i18n="studio-featured">Featured projects</h2>
+          <span aria-hidden="true">✦</span>
+        </div>
+        <ul class="studio-apps">
+          <li><a href="project-entrelinhas.html">
+            <span class="studio-folder"><img src="images/entrelinhas/icon.webp" alt=""></span>
+            <span><strong data-i18n="entrelinhas-name">Otterlines</strong><small>Apple TV · iPad</small></span>
+          </a></li>
+          <li><a href="project-cerne.html">
+            <span class="studio-folder"><img src="images/cerne/cerne-logo.jpg" alt=""></span>
+            <span><strong>Cerne</strong><small>iPhone · ARKit</small></span>
+          </a></li>
+          <li><a href="project-flyready.html">
+            <span class="studio-folder"><img src="images/flyready/icon.png" alt=""></span>
+            <span><strong>FlyReady</strong><small>iPhone · SwiftUI</small></span>
+          </a></li>
+          <li><a href="#projects">
+            <span class="studio-folder studio-folder-index" aria-hidden="true">▤</span>
+            <span><strong data-i18n="studio-all">All projects</strong></span>
+          </a></li>
+        </ul>
       </div>
     </div>
   </section>
 
   <section class="projects-section" id="projects">
     <div class="projects-header">
-      <span class="projects-label" data-i18n="projects-label">My Projects</span>
+      <h2 class="projects-label" data-i18n="projects-label">My Projects</h2>
+      <span class="projects-count" aria-hidden="true">01–09</span>
     </div>
 
     <div class="projects-grid">
@@ -58,10 +85,10 @@
       <a class="project-card" href="project-entrelinhas.html">
         <span class="project-number">01</span>
         <div class="project-cover project-cover--map">
-          <img src="images/entrelinhas/ipad/story-map.png" alt="Entrelinhas map showing the Lighthouse Library, Reading Nook, Word Playground, and Little Otters’ Atelier." class="project-cover-img">
+          <img src="images/entrelinhas/ipad/story-map.png" alt="Entrelinhas map showing the Lighthouse Library, Reading Nook, Word Playground, and Little Otters’ Atelier." class="project-cover-img" loading="lazy">
         </div>
         <div class="project-details">
-          <h2 class="project-title" data-i18n="entrelinhas-name">Otterlines</h2>
+          <h3 class="project-title" data-i18n="entrelinhas-name">Otterlines</h3>
           <div class="project-tags"><span>tvOS</span><span>SwiftUI</span></div>
           <p class="project-description" data-i18n="home-desc-otterlines">Shared reading for children and adults, with books and activities that encourage a reading habit on Apple TV and iPad.</p>
         </div>
@@ -71,11 +98,11 @@
       <a class="project-card" href="project-cerne.html">
         <span class="project-number">02</span>
         <div class="project-cover project-cover--screens project-cover--promo">
-          <img src="images/cerne/cerne-screen.png" alt="Cerne using augmented reality to measure a tree." class="project-cover-img">
-          <img src="images/cerne/cerne-screen2.png" alt="Cerne showing the environmental impact of a measured tree." class="project-cover-img">
+          <img src="images/cerne/cerne-screen.png" alt="Cerne using augmented reality to measure a tree." class="project-cover-img" loading="lazy">
+          <img src="images/cerne/cerne-screen2.png" alt="Cerne showing the environmental impact of a measured tree." class="project-cover-img" loading="lazy">
         </div>
         <div class="project-details">
-          <h2 class="project-title">Cerne</h2>
+          <h3 class="project-title">Cerne</h3>
           <div class="project-tags"><span>Swift</span><span>SwiftUI</span><span>MapKit</span><span>ARKit</span></div>
           <p class="project-description" data-i18n="home-desc-cerne">Identify trees, measure them with augmented reality, and explore their environmental impact.</p>
         </div>
@@ -85,11 +112,11 @@
       <a class="project-card" href="project-flyready.html">
         <span class="project-number">03</span>
         <div class="project-cover project-cover--screens project-cover--promo">
-          <img src="images/flyready/screen-1.webp" alt="FlyReady interview practice on a boarding pass inspired screen." class="project-cover-img">
-          <img src="images/flyready/screen-2.webp" alt="A flight attendant candidate practicing with an AI recruiter in FlyReady." class="project-cover-img">
+          <img src="images/flyready/screen-1.webp" alt="FlyReady interview practice on a boarding pass inspired screen." class="project-cover-img" loading="lazy">
+          <img src="images/flyready/screen-2.webp" alt="A flight attendant candidate practicing with an AI recruiter in FlyReady." class="project-cover-img" loading="lazy">
         </div>
         <div class="project-details">
-          <h2 class="project-title">FlyReady</h2>
+          <h3 class="project-title">FlyReady</h3>
           <div class="project-tags"><span>SwiftUI</span><span>Foundation Models</span><span>Speech</span></div>
           <p class="project-description" data-i18n="home-desc-flyready">Practice flight attendant interviews out loud with a recruiter who responds to your answers.</p>
         </div>
@@ -99,11 +126,11 @@
       <a class="project-card" href="project-sardine.html">
         <span class="project-number">04</span>
         <div class="project-cover project-cover--screens project-cover--framed">
-          <img src="images/sardine/initial-sardine.png" alt="Sardine Escape start screen." class="project-cover-img">
-          <img src="images/sardine/game-sardine.png" alt="A sardine dodging sea creatures during gameplay." class="project-cover-img">
+          <img src="images/sardine/initial-sardine.png" alt="Sardine Escape start screen." class="project-cover-img" loading="lazy">
+          <img src="images/sardine/game-sardine.png" alt="A sardine dodging sea creatures during gameplay." class="project-cover-img" loading="lazy">
         </div>
         <div class="project-details">
-          <h2 class="project-title">Sardine Escape</h2>
+          <h3 class="project-title">Sardine Escape</h3>
           <div class="project-tags"><span>Swift</span><span>SwiftUI</span><span>SpriteKit</span><span>GameKit</span><span>CoreMotion</span></div>
           <p class="project-description" data-i18n="home-desc-sardine">Guide a sardine through the ocean, dodge obstacles, and see how far you can go.</p>
         </div>
@@ -113,11 +140,11 @@
       <a class="project-card" href="project-rotta.html">
         <span class="project-number">05</span>
         <div class="project-cover project-cover--screens">
-          <img src="images/rotta/rotta-screen2.png" alt="Rotta Formula 2 glossary screen." class="project-cover-img">
-          <img src="images/rotta/rotta-screen3.png" alt="Rotta Formula 2 driver and team standings." class="project-cover-img">
+          <img src="images/rotta/rotta-screen2.png" alt="Rotta Formula 2 glossary screen." class="project-cover-img" loading="lazy">
+          <img src="images/rotta/rotta-screen3.png" alt="Rotta Formula 2 driver and team standings." class="project-cover-img" loading="lazy">
         </div>
         <div class="project-details">
-          <h2 class="project-title">Rotta</h2>
+          <h3 class="project-title">Rotta</h3>
           <div class="project-tags"><span>Swift</span><span>UIKit</span><span>CloudKit</span><span>Core Data</span></div>
           <p class="project-description" data-i18n="home-desc-rotta">Follow junior formula racing with calendars, standings, and driver profiles.</p>
         </div>
@@ -127,11 +154,11 @@
       <a class="project-card" href="project-wanderfeel.html">
         <span class="project-number">06</span>
         <div class="project-cover project-cover--screens project-cover--framed">
-          <img src="images/wanderfeel/wanderfeel-screen.png" alt="WanderFeel daily travel check-in and mood selection." class="project-cover-img">
-          <img src="images/wanderfeel/wanderfeel-screen2.png" alt="WanderFeel list of saved trips." class="project-cover-img">
+          <img src="images/wanderfeel/wanderfeel-screen.png" alt="WanderFeel daily travel check-in and mood selection." class="project-cover-img" loading="lazy">
+          <img src="images/wanderfeel/wanderfeel-screen2.png" alt="WanderFeel list of saved trips." class="project-cover-img" loading="lazy">
         </div>
         <div class="project-details">
-          <h2 class="project-title">WanderFeel</h2>
+          <h3 class="project-title">WanderFeel</h3>
           <div class="project-tags"><span>Swift</span><span>SwiftUI</span></div>
           <p class="project-description" data-i18n="home-desc-wanderfeel">Collect places, photos, and feelings in a travel journal that helps you remember each trip.</p>
         </div>
@@ -141,10 +168,10 @@
       <a class="project-card" href="project-omg.html">
         <span class="project-number">07</span>
         <div class="project-cover project-cover--wide">
-          <img src="images/omg/omg-screen.png" alt="Oh My Grill gameplay" class="project-cover-img">
+          <img src="images/omg/omg-screen.png" alt="Oh My Grill gameplay" class="project-cover-img" loading="lazy">
         </div>
         <div class="project-details">
-          <h2 class="project-title">Oh My Grill!</h2>
+          <h3 class="project-title">Oh My Grill!</h3>
           <div class="project-tags"><span>SwiftUI</span><span>SpriteKit</span><span>GameplayKit</span><span>Multipeer Connectivity</span><span>CoreMotion</span></div>
           <p class="project-description" data-i18n="home-desc-omg">Split the kitchen tasks, get orders out, and keep the team going through the chaos.</p>
         </div>
@@ -154,11 +181,11 @@
       <a class="project-card" href="project-purrchase.html">
         <span class="project-number">08</span>
         <div class="project-cover project-cover--screens project-cover--framed">
-          <img src="images/purrchase/purrchase-screen4.png" alt="Purrchase pantry showing items near expiration and expired products." class="project-cover-img">
-          <img src="images/purrchase/purrchase-screen2.png" alt="Purrchase list showing products available at home." class="project-cover-img">
+          <img src="images/purrchase/purrchase-screen4.png" alt="Purrchase pantry showing items near expiration and expired products." class="project-cover-img" loading="lazy">
+          <img src="images/purrchase/purrchase-screen2.png" alt="Purrchase list showing products available at home." class="project-cover-img" loading="lazy">
         </div>
         <div class="project-details">
-          <h2 class="project-title">Purrchase</h2>
+          <h3 class="project-title">Purrchase</h3>
           <div class="project-tags"><span>UIKit</span></div>
           <p class="project-description" data-i18n="home-desc-purrchase">Organize your pantry, track expiration dates, and plan shopping and recipes around what you already have.</p>
         </div>
@@ -168,10 +195,10 @@
       <a class="project-card" href="project-towerdefense.html">
         <span class="project-number">09</span>
         <div class="project-cover project-cover--wide">
-          <img src="images/towerdefense/store/01-you-are-the-tower.webp" alt="Wakes gameplay in a winter battlefield, with the player defending the village." class="project-cover-img">
+          <img src="images/towerdefense/store/01-you-are-the-tower.webp" alt="Wakes gameplay in a winter battlefield, with the player defending the village." class="project-cover-img" loading="lazy">
         </div>
         <div class="project-details">
-          <h2 class="project-title">Wakes</h2>
+          <h3 class="project-title">Wakes</h3>
           <div class="project-tags"><span>visionOS</span><span>SwiftUI</span><span>RealityKit</span></div>
           <p class="project-description" data-i18n="home-desc-wakes">Defend the village in a gesture-controlled tower defense game for Apple Vision Pro.</p>
         </div>
@@ -248,6 +275,8 @@
       </div>
     </div>
   </section>
+
+  </main>
 
   <footer>© 2026 Maria Eduarda Santellano</footer>
 
